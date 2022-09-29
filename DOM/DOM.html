@@ -1,0 +1,109 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<title>Shopping</title>
+<link rel="stylesheet" href="Styles.css" />
+<script src="https://kit.fontawesome.com/7433ea8ba6.js" crossorigin="anonymous"></script>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">RP Shop</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+    </header>
+    <section> <!--Carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Aphelios_0.jpg" class="d-block w-100" alt="..." height="700px">
+              </div>
+              <div class="carousel-item">
+                <img src="./LoL_SpiritBlossomThresh.jpg" class="d-block w-100" alt="..." height="700px">
+              </div>
+              <div class="carousel-item">
+                <img src="./1487430-gwen-league-of-legends-orig-1-article_image_t-1.jpg" class="d-block w-100" alt="..." height="700px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section>
+          <div class="row">
+            <div class="col-lg-4">
+                <h1>Welcome</h1>
+        <p>Here you can find the best</p>
+        <h4>Total Items Price: <span class="total-price">0</span></h4>
+          </div><!-- /.col-lg-4 -->
+          </div>
+      </section>
+      <div class="card">
+          <div id="dummy">
+            <img id="thresh" src="./Sword.png" width="300">
+            <button class="plus-btn">+</button>
+            <span  class="qte">0</span>
+            <button class="minus-btn">-</button>
+            <input type="button" value="X" onclick="removeDummy()" />
+            <button onclick="Toggle()" id="btn" class="btn"><i class="fa-solid fa-heart"></i></button> <h5><span class="unit-price">450</span><span> Gold</span></h5>
+        
+          </div>
+          <div id="Cat">
+            <img src="./Shield.jfif" width="300">
+            <button class="plus-btn">+</button>
+            <span class="qte">0</span>
+            <button class="minus-btn">-</button>
+            <input type="button" value="X" onclick="removeCat()" />
+            <button onclick="Toggle1()" id="btn1" class="btn1"><i class="fa-solid fa-heart"></i></button> <h5><span class="unit-price">3200</span><span> Gold</span></h5>
+      
+          </div>
+          <div id="Dog">
+            <img src="./Bow.png" width="300">
+            <button class="plus-btn">+</button>
+            <span class="qte" >0</span>
+            <button class="minus-btn">-</button>
+            <input type="button" value="X" onclick="removeDog()" />
+            <button onclick="Toggle2()" id="btn2" class="btn2"><i class="fa-solid fa-heart"></i></button> <h5><span class="unit-price">3500</span><span> Gold</span></h5> 
+        
+          </div>
+        </div>
+
+          
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="Js.js"></script>
+</body>
+<footer>
+</footer>
+</html>

@@ -1,0 +1,46 @@
+
+.row{
+    justify-content: center;
+    align-items: center;
+   padding-top: 50px;
+   padding-left: 15%;
+}
+#dummy{
+    flex-direction: row;
+    text-align:center;
+}
+#Cat{
+    flex-direction: row;
+    text-align: center;
+}
+#Dog{
+    flex-direction: row;
+    text-align: center;
+}
+#btn{
+    background: transparent;
+    border: none;
+    margin: 87px;
+    font-size: 40px;
+    outline: none;
+    color: grey;
+}
+.btn1{
+    background: transparent;
+    border: none;
+    margin: 87px;
+    font-size: 40px;
+    outline: none;
+    color: grey;
+}
+.btn2{
+    background: transparent;
+    border: none;
+    margin: 87px;
+    font-size: 40px;
+    outline: none;
+    color: grey;
+}
+.footer{
+    position: fixed;
+}
